@@ -1,0 +1,262 @@
+/*Common Elements*/
+body{
+    background: #d8d4d5;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h5{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.clear{
+    clear: both;
+    font-size: 1%;
+}
+
+button{
+    border: inset 3px #772f29;
+    border-radius: 2px;
+    background-color: #ede3e5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px; 
+}
+
+button:hover{
+    background-color: #aaa2a4;
+}
+/* Nav Bar 1 */
+.navBar1{
+    background-color: #406046;
+    width: 100%;
+    height: 0.8em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.5em 0 0.5em 0;
+    z-index: 2;
+}
+.navBar1 a, .navBar1 a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0.5em 0.75em 0.5em 0.75em;
+    border-radius: 2px;
+}
+
+.navBar1 a:hover{
+    text-decoration: none;
+    background-color: grey;
+}
+
+.help{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: solid 1px;    
+    border-color: grey grey transparent transparent;
+}
+
+.login{
+    position: fixed;
+    top: 0;
+    right: 5.3em;
+    border: solid 1px;
+    border-color: grey transparent transparent grey;
+}
+
+.register{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: solid 1px;
+    border-color: grey transparent transparent grey;
+}
+
+#search{
+    position: fixed;
+    top: 0.2em;
+    right: 9em;
+    border: inset;
+    border-radius: 2px;
+}
+
+#cart{
+    position: fixed;
+    top: -0.1em;
+    right: 24em;
+    border: none;
+}
+
+#cart:hover{
+    background-color: transparent;
+}
+
+#socialIcon{
+    display: inline-block;
+    position: relative;
+    top: -80%;
+    left: 3.5%;
+}
+
+#socialIcon:hover{
+    background-color: transparent;
+}
+
+/* Header */
+#header{
+    background: url(assets/background-1463113_1280.jpg);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 3px 0 #7a3747;
+    float: left;
+}
+
+.logo{
+    display: block;
+    margin-top: 2.5%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Nav Bar 2 */
+.navBar2{
+    background-color: transparent;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    top: 12.5%;
+    left: 0;
+}
+
+.navBar2 a, .navBar2 a:visited{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: #ede3e5;
+}
+
+.navBar2 a:hover{
+    color: #aaa2a4;
+}
+
+.home{
+    position: relative;
+    top: 0;
+    left: 10%;
+}
+
+.store{
+    position: relative;
+    top: 0;
+    left: 20%;
+}
+
+.faq{
+    position: relative;
+    top: 0;
+    left: 62.5%;
+}
+
+.contact{
+    position: relative;
+    top: 0;
+    left: 72.5%;
+}
+/* Side Article */
+#article{
+    float: left;
+    z-index: -1;
+    position: relative;
+    margin: 0 0 0 0.5%;
+    width: 18%;
+    height: 25%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 1% 2%;
+    background-color: white;
+    border-top: solid 0.5em #406046;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.25em 0 grey;
+}
+/* Main Store */
+
+#store{
+    margin: 0;
+    float: right;
+    width: 75%;
+    padding: 0 1.75% 0.5% 0;
+}
+
+#store h2{
+    text-align: center;
+}
+
+.vases{
+    float: right;
+    width: 29%;
+    border: solid 2px black;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0.5%;
+    padding: 1%;
+    border-radius: 1em;
+    background-color: #603232;
+    color: white;
+}
+
+.vaseType{
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    background-color: #406046;
+    color: #ede3e5;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin: 2% 0 0 0;
+    padding: 0.25% 0 0 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+footer ul#menuFooter{
+    display: inline-block;
+    margin: 0 0 0 1%;
+    padding: 0;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+
+footer a, footer a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
